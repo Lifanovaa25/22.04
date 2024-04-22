@@ -1,0 +1,13 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9px;
+}
+
+.crumb {
+    color: var(--blue-color);
+    &:hover {
+        text-decoration: underline;
+    }
+}

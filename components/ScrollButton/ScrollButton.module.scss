@@ -1,0 +1,27 @@
+.up_btn {
+    position: fixed;
+    bottom: 80px;
+    left: 85%;
+    z-index: 99;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+    background: var(--brand-color-dark);
+
+    border: 1px solid var(--background-color);
+    border-radius: 8px;
+
+    cursor: pointer;
+    &:hover,
+    :focus {
+
+        background: var(--brand-color);
+
+    }
+}
