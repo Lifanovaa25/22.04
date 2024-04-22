@@ -40,7 +40,6 @@
         align-items: flex-start;
         justify-content: center;
         gap: 10px;
-        // margin-bottom: 30px;
         height: 182px;
 
         text-wrap: wrap;
@@ -72,7 +71,6 @@
         padding: 0px 10px;
         gap: 20px;
 
-        // width: 339px;
         height: 272px;
 
     }
@@ -117,7 +115,7 @@
         }
 
         &__content {
-            // height: 173px;
+           
             padding: 10px;
         }
 
@@ -191,7 +189,7 @@
 .desc_tags_swiper {
     text-wrap: nowrap;
     width: 100%;
-    justify-content: space-between;
+    // justify-content: space-between;
     overflow: hidden;
 
     a {
@@ -214,7 +212,5 @@
 
 .desc_tags_card {
     width: 100%;
-    // justify-content: space-between;
-
-    text-wrap: nowrap;
+  text-wrap: nowrap;
 }
