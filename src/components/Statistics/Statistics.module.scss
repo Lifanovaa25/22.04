@@ -5,39 +5,53 @@
     gap: 10px;
 
 }
+
 .card {
     display: flex;
     align-items: center;
-    padding: 10px 11px;
+    justify-content: center;
+    padding: 10px ;
     gap: 7px;
 
     background: var(--background-color);
     border-radius: 20px;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 
     &__description {
         color: var(--black-color);
     }
+
     &:nth-child(2n+2) {
         margin-right: 30px;
     }
+
     &:last-of-type {
         margin-right: 0;
     }
+
     @media screen and (max-width:768px) {
         gap: 5px;
+
         &:nth-child(2n+2) {
             margin-right: 7px;
         }
+
         &:last-of-type {
             margin-right: 0;
         }
     }
 }
+
 .desc_tags {
     gap: 5px;
+
     &:nth-child(2n+2) {
         margin-right: 15px;
     }
+
     &:last-of-type {
         margin: 0;
     }

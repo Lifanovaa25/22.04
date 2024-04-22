@@ -24,11 +24,14 @@ export const Statistics: FC<StatisticsProps> = ({className}) => {
         },
         {
              iconCode: <span>&#128293;</span>,
+             &#128293;
             // icon:fire,
             value: '1321',
         },
         {
-             iconCode:  <span>&#9997;</span>,
+            //  iconCode:  <span>✍️</span>,
+             iconCode:  <span>&#9997;&#65039;</span>,
+             
             // icon:fire,
             value: '1321',
         }
