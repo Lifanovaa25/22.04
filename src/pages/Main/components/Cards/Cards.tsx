@@ -66,7 +66,7 @@ export const Cards: FC<CardsProps> = ({ isSwiper }) => {
   
     return (
 
-        <div className={s.cards_items}>
+        <section className={s.cards_items}>
             {isSwiper ? (
                 <Swiper
                     spaceBetween={20}
@@ -119,7 +119,7 @@ export const Cards: FC<CardsProps> = ({ isSwiper }) => {
                 </>
             )}
 
-        </div>
+        </section>
 
     )
 }
